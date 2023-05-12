@@ -4,24 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/SpaceCatLog.jpg">
     <title>Space Cat</title>
     <style>
         body {
             margin: 0px;
         }
+        .spacecat {
+            height: 200px;
+            position: absolute;
+            top: 200px;
+            left: 300px;
+        }
+        .cabeza {
+            background: gray;
+        }
+        .cabeza__nav--img {
+            height: 50px;
+        }
+        .cabeza__nav--li {
+            display: inline;
+        }
     </style>
 </head>
 <body>
-    <header style="background: black;">
-        <nav>
-            <a href="index.html">
-                <img style="height: 50px;" src="img/SpaceCatLog.jpg" alt="El logo de Space Cat, no pudo cargar.">
-            </a>
+    <header class="cabeza">
+        <nav class="cabeza__nav">
+            <a href="index.html"><img class="cabeza__nav--img" src="img/SpaceCatLog.jpg" alt="El logo de SpaceCat no ha podido cargar"></a>
             <ui>
-                <li style="display: inline;"><a  href="pags.html">Páginas</a></li>
+                <li class="cabeza__nav--li">
+                    <a href="pags.html">Páginas</a>
+                </li>
             </ui>
             <hr>
         </nav>
     </header>
+    <img src="img/SpaceCatCom.jpg">
 </body>
 </html>
