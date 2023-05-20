@@ -1,16 +1,44 @@
 <!DOCTYPE html><!--Que insano secreto-->
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kemush</title>
+    <link rel="icon" href="img/SpaceCatLog.jpg">
+    <title>Space Cat</title>
+    <style>
+        body {
+            margin: 0px;
+        }
+        .spacecat {
+            height: 200px;
+            position: absolute;
+            top: 200px;
+            left: 300px;
+        }
+        .cabeza {
+            background: gray;
+        }
+        .cabeza__nav--img {
+            height: 50px;
+        }
+        .cabeza__nav--li {
+            display: inline;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <a href="/Kemush/index.html">Home</a>
-        <a href="/Kemush/pags.html">Pags</a>
-        <a href="/Kemush/me.html">Me</a>
+    <header class="cabeza">
+        <nav class="cabeza__nav">
+            <a href="index.html"><img class="cabeza__nav--img" src="img/SpaceCatLog.jpg" alt="El logo de SpaceCat no ha podido cargar"></a>
+            <ul>
+                <li class="cabeza__nav--li">
+                    <a href="pags.html">Páginas</a>
+                </li>
+            </ul>
+            <hr>
+        </nav>
     </header>
+    <img src="img/SpaceCatCom.jpg" alt="">
 </body>
 </html>
