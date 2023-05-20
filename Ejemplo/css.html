@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>css</title>
+	<style>
+		*{
+			margin: 0;
+		}
+		h1{
+			color:rgb(175, 121, 121);
+		}
+		div{
+			
+		}
+		.caja{
+			padding:1rem;
+			margin:5vh;
+		}
+		.claro{
+			color:rgb(82, 52, 7);
+			background-color: rgb(236,220,176);
+		}
+		.oscuro{
+			color: #eee7de;
+			background: linear-gradient(90deg,rgb(82, 65, 65), rgb(128, 102, 76));
+		}
+
+		#n1{
+			border-style: solid;
+			border-width:1px;
+			border-color: black;
+			border-radius: 1rem;
+		}
+		/*      */
+		.cho-img{
+			margin-left:25%;
+			margin-right:25%;
+			width: 50%; /*Ancho*/
+			height: auto; /*Alto*/
+		}
+		.w-100{
+			width: 100%;
+		}
+	</style>
+
+</head>
+
+<body>
+	<h1>Chocolatey</h1>
+	<div class="caja claro">Esta es mi caja 1</div>
+
+	<h1>White Chocolatey</h1>
+	<div class="caja oscuro">Esta es mi caja 2</div>
+
+	<h1>White Chocolatey 2</h1>
+	<div id="n1" class="caja oscuro">Esta es mi caja 2
+		<div class="w-100">
+			<img class="cho-img" src="https://images.hola.com/imagenes/cocina/noticiaslibros/20220922217601/recetas-postres-chocolate-blanco/1-141-385/adobe-chocolateblanco-1-a.jpg" alt="Chocolate blanco">
+		</div>
+	</div>
+</body>
+
+</html>
