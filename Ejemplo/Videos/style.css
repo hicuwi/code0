@@ -76,3 +76,17 @@ main{
     color:var(--light-color);
     border-radius: 3px;
 }
+
+/*Like botón*/
+
+.like {
+    margin-top: 1rem;
+}
+
+.like button {
+    border-color: brown;
+
+    color: rgb(158, 24, 24);
+    background-color: rgb(243, 185, 185);
+}
+

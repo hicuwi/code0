@@ -25,3 +25,11 @@ if(cumple == false){
     cumple = !cumple;
 }
 console.log(cumple);
+
+
+//funciones
+
+function darLike(id){
+    span = document.getElementById(id);
+    span.innerText =  parseInt(span.innerText) + 1;
+}
