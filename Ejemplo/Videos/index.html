@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header> <!--Menu-->
+        <div> <!--Logo-->
+            <img class="logo" src="https://cdn-icons-png.flaticon.com/512/190/190441.png" alt="">
+        </div>
+        <div> <!--Links-->
+            <ul class="lista">
+                <li class="elemento">
+                    <a id="actual"  href="pagina1.html" class="nav-link">Pagina 1</a>
+                </li>
+                <li class="elemento">
+                    <a href="" class="nav-link">Pagina 2</a>
+                </li>
+                <li class="elemento">
+                    <a href="" class="nav-link">Pagina 3</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main> <!--Principal-->
+        <h1>Videos graciosos</h1> 
+        <div class="caja"><!--Video 1-->
+            <iframe width="300"  src="https://www.youtube.com/embed/qpO1TeB1X0g" title="Lo malo de aprender otro idioma | Casi Creativo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <!--<video src="https://youtu.be/qpO1TeB1X0g"></video>-->
+            <div class="descripcion">
+                <h2>Título</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque officia recusandae cum maiores magni, quo delectus adipisci eaque soluta necessitatibus velit consequatur laudantium ipsa nisi perferendis, perspiciatis optio</p>
+
+                <a href="">Ver análisis</a>
+            </div>
+
+
+
+
+            <div class="like">
+                <button type="button" onclick="darLike('like1')" >
+                    ♥
+                </button>
+                <span id="like1">0</span>
+            </div>
+
+
+
+
+
+        </div>
+        <div class="caja"><!--Video 2-->
+            <iframe width="300" src="https://www.youtube.com/embed/qpO1TeB1X0g" title="Lo malo de aprender otro idioma | Casi Creativo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descripcion">
+                <h2>Título</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque officia recusandae cum maiores magni, quo delectus adipisci eaque soluta necessitatibus velit consequatur laudantium ipsa nisi perferendis, perspiciatis optio</p>
+
+                <a href="">Ver análisis</a>
+            </div>
+            <div class="like">
+                <button type="button" onclick="darLike('like2')">
+                    ♥
+                </button>
+                <span id="like2">0</span>
+            </div>
+        </div>
+        <div class="caja"><!--Video 3-->
+            <iframe width="300" src="https://www.youtube.com/embed/qpO1TeB1X0g" title="Lo malo de aprender otro idioma | Casi Creativo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descripcion">
+                <h2>Título</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque officia recusandae cum maiores magni, quo delectus adipisci eaque soluta necessitatibus velit consequatur laudantium ipsa nisi perferendis, perspiciatis optio</p>
+
+                <a href="">Ver análisis</a>
+            </div>
+            <div class="like">
+                <button type="button" onclick="darLike('like3')">
+                    ♥
+                </button>
+                <span id="like3">0</span>
+            </div>
+        </div>
+    </main>
+    <footer> <!--Otros links-->
+
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

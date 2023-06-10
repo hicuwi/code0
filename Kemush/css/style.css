@@ -1,0 +1,14 @@
+head {
+    margin: 0px;
+}
+
+.encabezado__nav--img {
+    width: 50px;
+}
+
+.buscador__img {
+    width: 500px;
+    position: absolute;
+    left: 350px;
+    top: 70px;
+}
